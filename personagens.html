@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personagens - Hollow Wiki</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -19,35 +19,432 @@
     </ul>
 </nav>
 
-
 <main class="container">
-    <h1 class="section-title">Personagens Principais</h1>
+    <section style="margin-bottom:40px;">
+        <h1 class="section-title">Personagens Principais</h1>
+        <div class="characters">
+            <div class="character-card">
+                <img src="/personagens/Knight.jpeg" alt="O Cavaleiro">
+                <div class="content">
+                    <h3>The Knight</h3>
+                    <p>O protagonista da jornada, responsável por explorar Hallownest e enfrentar a Infecção.</p>
+                </div>
+            </div>
 
-    <div class="characters">
-        <div class="character-card">
-            <img src="img/knight.svg" alt="O Cavaleiro">
-            <div class="content">
-                <h3>O Cavaleiro</h3>
-                <p>O protagonista da jornada, responsável por explorar Hallownest e enfrentar a Infecção.</p>
+            <div class="character-card">
+                <img src="/personagens/HollowKnight.jpeg" alt="O Cavaleiro">
+                <div class="content">
+                    <h3>The Hollow Knight</h3>
+                    <p>Vaso escolhido pelo Rei Pálido para aprisionar a Radiância. Com o passar do tempo, sua prisão enfraquece, permitindo que a Infecção volte a se espalhar.</p>
+                </div>
+            </div>
+
+            <div class="character-card">
+                <img src="/personagens/Radiance.jpeg" alt="Radiance">
+                <div class="content">
+                    <h3>Radiance</h3>
+                    <p>Antiga divindade da luz adorada pelos insetos antes da ascensão do Rei Pálido. É a verdadeira responsável pela Infecção que destruiu Hallownest.</p>
+                </div>
+            </div>
+
+            <div class="character-card">
+                <img src="/personagens/PaleKing.jpeg" alt="Pale King">
+                <div class="content">
+                    <h3>Pale King</h3>
+                    <p>Governante de Hallownest. Criou um dos maiores reinos da história dos insetos e idealizou a criação dos Vasos para derrotar a Radiância.</p>
+                </div>
+            </div>
+
+             <div class="character-card">
+                <img src="/personagens/White Lady.jpeg" alt="White Lady">
+                <div class="content">
+                    <h3>White Lady</h3>
+                    <p>Companheira do Rei Pálido. Participou da criação dos Vasos utilizando seu poder e permanece escondida nos Jardins da Rainha.</p>
+                </div>
+            </div>
+            
+
+            <div class="character-card">
+                <img src="/personagens/Hornet.jpeg" alt="Hornet">
+                <div class="content">
+                    <h3>Hornet</h3>
+                    <p>Filha do Rei Pálido e de Herrah, a Besta. 
+                    Guerreira extremamente habilidosa que testa o Cavaleiro durante 
+                    a jornada e posteriormente torna-se uma importante aliada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <!-- ADIÇÃO: Seções por Área do Jogo com Accordion -->
+    <section style="margin-bottom:40px;">
+        <h2 class="section-title">Áreas</h2>
+                     <!--Dirtmouth -->
+        <div class="accordion-item">
+            <button class="accordion-header" data-area="Dirtmouth">
+                <span class="accordion-icon">▶</span> Dirtmouth
+            </button>
+            <div class="accordion-content" id="Dirtmouth" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">   
+                        <div class="character-card2">
+                            <img src="/personagens/áreas/Dirtmouth.jpeg" alt="Dirtmouth">
+                            <div class="content">
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                
+            </div>
+        </div>
+                   <!--Howling Cliffs-->
+        <div class="accordion-item">
+            <button class="accordion-header" data-area="howlingcliffs">
+                <span class="accordion-icon">▶</span> Howling Cliffs
+            </button>
+            <div class="accordion-content" id="howlingcliffs" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/Howling Cliffs.jpeg" alt="Shell Knight">
+                            <div class="content">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+                            <!--Forgotten Crossroads-->
+        <div class="accordion-item">
+            <button class="accordion-header" data-area="forgottencrossroads">
+                <span class="accordion-icon">▶</span> Forgotten Crossroads
+            </button>
+            <div class="accordion-content" id="forgottencrossroads" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/Forgotten crossroads map.jpeg" alt="Forgotten Crossroads">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+                         <!-- Greenpath -->
+        <div class="accordion-item">
+            <button class="accordion-header" data-area="greenpath">
+                <span class="accordion-icon">▶</span> Greenpath
+            </button>
+            <div class="accordion-content" id="greenpath" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/greenpatfh.jpeg" alt="Greenpath">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Fungal Wastes-->
+         <div class="accordion-item">
+            <button class="accordion-header" data-area="fungalwastes">
+                <span class="accordion-icon">▶</span> Fungal Wastes
+            </button>
+            <div class="accordion-content" id="fungalwastes" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/Fungal wastes map.jpeg" alt="Fungal Wastes">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Fog canyon -->
+        <div class="accordion-item">
+            <button class="accordion-header" data-area="fogcanyon">
+                <span class="accordion-icon">▶</span> Fog Canyon
+            </button>
+            <div class="accordion-content" id="fogcanyon" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/Fog Canyon.jpeg" alt="Fog Canyon">
+                           
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="character-card">
-            <img src="img/hornet.svg" alt="Hornet">
-            <div class="content">
-                <h3>Hornet</h3>
-                <p>Uma guerreira ágil e protetora de Hallownest, com forte ligação com o reino.</p>
+        <!-- City of Tears -->
+        <div class="accordion-item">
+            <button class="accordion-header" data-area="cityoftears">
+                <span class="accordion-icon">▶</span> City of Tears
+            </button>
+            <div class="accordion-content" id="cityoftears" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/City of Tears.jpeg" alt="City of Tears">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
+        <!-- Royal Waterways -->
+         <div class="accordion-item">
+            <button class="accordion-header" data-area="royalwaterways">
+                <span class="accordion-icon">▶</span> Royal Waterways
+            </button>
+            <div class="accordion-content" id="royalwaterways" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/Royal Waterways.jpeg" alt="Royal Waterways">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!--Resting grounds-->
+         <div class="accordion-item">
+            <button class="accordion-header" data-area="restinggrounds">
+                <span class="accordion-icon">▶</span> Resting Grounds
+            </button>
+            <div class="accordion-content" id="restinggrounds" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/Resting Grounds.jpeg" alt="Resting Grounds">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- Crystal Peak -->
+             <div class="accordion-item">
+            <button class="accordion-header" data-area="crystalpeak">
+                <span class="accordion-icon">▶</span> Crystal Peak
+            </button>
+            <div class="accordion-content" id="crystalpeak" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/Crystal Peak.jpeg" alt="Crystal Peak">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Ancient Basin -->
+         <div class="accordion-item">
+            <button class="accordion-header" data-area="ancientbasin">
+                <span class="accordion-icon">▶</span> Ancient Basin
+            </button>
+            <div class="accordion-content" id="ancientbasin" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/Ancient Basin.jpeg" alt="Ancient Basin">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!--The abyss -->
+        <div class="accordion-item">
+            <button class="accordion-header" data-area="theabyss">
+                <span class="accordion-icon">▶</span> The Abyss
+            </button>
+            <div class="accordion-content" id="theabyss" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/The Abyss.jpeg" alt="The Abyss">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+       <!--Deepnest -->
+       <div class="accordion-item">
+            <button class="accordion-header" data-area="Deepnest">
+                <span class="accordion-icon">▶</span> Deepnest
+            </button>
+            <div class="accordion-content" id="Deepnest" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/Deepnest map.jpeg" alt="Deepnest">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Queen's Gardens -->
+         <div class="accordion-item">
+            <button class="accordion-header" data-area="QueensGardens">
+                <span class="accordion-icon">▶</span> Queen's Gardens
+            </button>
+            <div class="accordion-content" id="QueensGardens" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/queens garden.jpeg" alt="Queen's Gardens">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!--Kingdom's Edge -->
+        <div class="accordion-item">
+            <button class="accordion-header" data-area="KingdomsEdge">
+                <span class="accordion-icon">▶</span> Kingdom's Edge
+            </button>
+            <div class="accordion-content" id="KingdomsEdge" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/Kingdoms Edge map hollow knight.jpeg" alt="Kingdom's Edge">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!--The hive-->
+        <div class="accordion-item">
+            <button class="accordion-header" data-area="TheHive">
+                <span class="accordion-icon">▶</span> The Hive
+            </button>
+            <div class="accordion-content" id="TheHive" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/The hive.jpeg" alt="The Hive">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Colesseum of fools-->
+         <div class="accordion-item">
+            <button class="accordion-header" data-area="ColesseumOfFools">
+                <span class="accordion-icon">▶</span> Colesseum of fools
+            </button>
+            <div class="accordion-content" id="ColesseumOfFools" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/colesseum of fouls.jpeg" alt="Colesseum of fools">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!--White Palace-->
+        <div class="accordion-item">
+            <button class="accordion-header" data-area="WhitePalace">
+                <span class="accordion-icon">▶</span> White Palace
+            </button>
+            <div class="accordion-content" id="WhitePalace" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/White Palace.jpeg" alt="White Palace">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!--Black Egg Temple-->
+        <div class="accordion-item">
+            <button class="accordion-header" data-area="BlackEggTemple">
+                <span class="accordion-icon">▶</span> Black Egg Temple
+            </button>
+            <div class="accordion-content" id="BlackEggTemple" style="display:none;">
+                <div class="area-section">
+                    <h3 class="area-subtitle">Mapa</h3>
+                    <div class="characters">
+                        <div class="character2-card">
+                            <img src="/personagens/áreas/Temple of the black egg.jpeg" alt="Black Egg Temple">
+                           
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>  
 
-        <div class="character-card">
-            <img src="img/radiance.svg" alt="Radiance">
-            <div class="content">
-                <h3>Radiance</h3>
-                <p>Entidade responsável pela Infecção que assolou Hallownest.</p>
-            </div>
-        </div>
-    </div>
+    </section>
 </main>
 
 
@@ -57,7 +454,6 @@
 
 <button id="themeBtn" title="Alternar tema">☾</button>
 <button id="topBtn" title="Voltar ao topo">↑</button>
-<script src="js/script.js"></script>
-
+<script src="script.js"></script>
 </body>
 </html>

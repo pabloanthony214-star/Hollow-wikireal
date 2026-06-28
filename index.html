@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hollow Wiki</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="hero">
@@ -91,11 +91,23 @@
 
     <section style="margin-top:40px;">
         <h2 class="section-title">Galeria</h2>
-        <div class="gallery">
-            <img src="img/knight.svg" alt="Knight">
-            <img src="img/hornet.svg" alt="Hornet">
-            <img src="img/radiance.svg" alt="Radiance">
-            <img src="img/hallownest.svg" alt="Hallownest">
+        <!-- ALTERAÇÃO: estrutura de carrossel com imagens -->
+        <div class="Carrossel">
+            <div class="track">
+                <div class="slide"><img src="img/the knigth.jpeg" alt="Knight"></div>
+                <div class="slide"><img src="img/hornet.jpeg" alt="Hornet"></div>
+                <div class="slide"><img src="img/radiance.jpeg" alt="Radiance"></div>
+                <div class="slide"><img src="img/Grimm.jpeg" alt="Grimm"></div>
+                <div class="slide"><img src="img/hollownest.webp" alt="Hallownest"></div>
+                <div class="slide"><img src="img/card1.png" alt="DLC Sea of Sorrow"></div>
+                <!-- duplicação para loop contínuo -->
+                <div class="slide" aria-hidden="true"><img src="img/the knigth.jpeg" alt="Knight"></div>
+                <div class="slide" aria-hidden="true"><img src="img/hornet.jpeg" alt="Hornet"></div>
+                <div class="slide" aria-hidden="true"><img src="img/radiance.jpeg" alt="Radiance"></div>
+                <div class="slide" aria-hidden="true"><img src="img/Grimm.jpeg" alt="Grimm"></div>
+                <div class="slide" aria-hidden="true"><img src="img/hollownest.webp" alt="Hallownest"></div>
+                <div class="slide" aria-hidden="true"><img src="img/card1.png" alt="DLC Sea of Sorrow"></div>
+            </div>
         </div>
     </section>
 
@@ -114,7 +126,7 @@
 
 <button id="themeBtn" title="Alternar tema">☾</button>
 <button id="topBtn" title="Voltar ao topo">↑</button>
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
